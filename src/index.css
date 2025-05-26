@@ -59,7 +59,7 @@ footer {
 section {
   border: 1px solid gray;
   width: 50%;
-  height: 100px;
+  height: max-content;
   margin: auto;
   text-align: center;
 }
