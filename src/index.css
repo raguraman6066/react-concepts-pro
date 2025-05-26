@@ -63,3 +63,13 @@ section {
   margin: auto;
   text-align: center;
 }
+main ul {
+  list-style: none;
+}
+main .item svg {
+  color: lightskyblue;
+  outline: none;
+}
+main .item svg:hover {
+  color: rgb(165, 50, 50);
+}
