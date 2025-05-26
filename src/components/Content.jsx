@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CounterApp from "./CounterApp";
+import Shop from "./Shop";
 let Button = styled.button`
   background-color: blue;
   color: white;
@@ -38,8 +39,9 @@ const Content = () => {
       >
         Click Me
       </Button>
-      <NewButton onClick={changeName}>New Button</NewButton> */}
-      <CounterApp />
+      <NewButton onClick={changeName}>New Button</NewButton> 
+      <CounterApp />*/}
+      <Shop />
     </main>
   );
 };
